@@ -12,3 +12,37 @@ body {
     overflow-x: hidden;
     flex-direction: column;
 }
+
+/* Headers and navbar*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    height: 56px;
+}
+
+.navbar-brand {
+    font-family: 'Bangers', cursive;
+}
+
+.navbar-brand:hover {
+    color: #000;
+}
+
+header, .footer {
+    background-image: linear-gradient(to right, #d0b3b7, #985d65, #d0b3b7);
+}
+
+header a {
+    color: black;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+.nav-link:hover {
+    background-color: #985d65;
+    color: #fff;
+}
