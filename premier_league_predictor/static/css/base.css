@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@500&display=swap');
+/*Main global layout*/
+main {
+    flex: 1 0 auto;
+}
+
+body {
+    background-color: #efefef;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    flex-direction: column;
+}
