@@ -46,3 +46,20 @@ header a {
     background-color: #985d65;
     color: #fff;
 }
+
+.home-team {
+    float: left;
+}
+
+.home-team-score {
+    float: right;
+}
+
+.away-team {
+    float: right;
+}
+
+.away-team-score {
+    float: left;
+}
+

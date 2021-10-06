@@ -17,7 +17,9 @@ class Matches(models.Model):
     #  which adds an 's' to the model name
     class Meta:
         verbose_name_plural = 'Matches'
-
+    match_number = models.CharField(null=False,
+                                    blank=False,
+                                    max_length=254)
     date = models.DateTimeField(auto_now=False, auto_now_add=False)
     home_team = models.ForeignKey('Team',
                                   on_delete=models.PROTECT,
@@ -35,4 +37,4 @@ class Matches(models.Model):
                                           blank=True)
 
     def __str__(self):
-        return self
+        return self.match_number
